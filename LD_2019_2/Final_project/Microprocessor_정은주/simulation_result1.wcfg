@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/csehome/cseclass/Downloads/Final/Test4_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Test4" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/Test4/RegWriteR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWriteR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">RegWriteR[6:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/RegWriteL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWriteL[6:0]</obj_property>
+      <obj_property name="ObjectShortName">RegWriteL[6:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/MemWriteR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWriteR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MemWriteR[6:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/MemWriteL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWriteL[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MemWriteL[6:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/Instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instruction[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Instruction[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/pcout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pcout[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U2/Read_Address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Read_Address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Read_Address[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/registers/Rs1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rs1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <wvobject fp_name="/Test4/uut/U1/registers/Rs1[1]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">Rs1[1]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test4/uut/U1/registers/Rs1[0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">Rs1[0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/registers/Rs2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rs2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#0000ff</obj_property>
+      <wvobject fp_name="/Test4/uut/U1/registers/Rs2[1]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">Rs2[1]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#0000ff</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test4/uut/U1/registers/Rs2[0]" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">Rs2[0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#0000ff</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/registers/Rs1Data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rs1Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1Data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/registers/Rs2Data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Rs2Data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2Data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/registers/Registers" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Registers[3:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">Registers[3:0,7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      <wvobject fp_name="/Test4/uut/U1/registers/Registers[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,7:0]</obj_property>
+         <obj_property name="ObjectShortName">Registers[3,7:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test4/uut/U1/registers/Registers[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,7:0]</obj_property>
+         <obj_property name="ObjectShortName">Registers[2,7:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test4/uut/U1/registers/Registers[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,7:0]</obj_property>
+         <obj_property name="ObjectShortName">Registers[1,7:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Test4/uut/U1/registers/Registers[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">Registers[0,7:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/memory/Address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Address[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Address[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/memory/WriteData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WriteData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/memory/ReadData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ReadData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/memory/Memory" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Memory[31:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">Memory[31:0,7:0]</obj_property>
+   </wvobject>
+</wave_config>

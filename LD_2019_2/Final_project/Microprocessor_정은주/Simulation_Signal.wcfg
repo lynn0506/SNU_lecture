@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/csehome/cseclass/Downloads/Final/Test4_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Test4" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/Test4/RegWriteR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWriteR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">RegWriteR[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/RegWriteL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWriteL[6:0]</obj_property>
+      <obj_property name="ObjectShortName">RegWriteL[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/MemWriteR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWriteR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MemWriteR[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/MemWriteL" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWriteL[6:0]</obj_property>
+      <obj_property name="ObjectShortName">MemWriteL[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/controller/Branch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/controller/MemtoReg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/controller/MemRead" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/controller/MemWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/controller/ALUop" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUop</obj_property>
+      <obj_property name="ObjectShortName">ALUop</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/controller/ALUsrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ALUsrc</obj_property>
+      <obj_property name="ObjectShortName">ALUsrc</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/controller/RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/controller/RegDst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/controller/DC_L" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DC_L</obj_property>
+      <obj_property name="ObjectShortName">DC_L</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Test4/uut/U1/controller/DC_R" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">DC_R</obj_property>
+      <obj_property name="ObjectShortName">DC_R</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+</wave_config>

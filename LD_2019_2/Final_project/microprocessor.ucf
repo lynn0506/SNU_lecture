@@ -1,0 +1,51 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "MemWriteL[6]" LOC = P29;
+NET "MemWriteL[5]" LOC = P28;
+NET "MemWriteL[4]" LOC = P27;
+NET "MemWriteL[3]" LOC = P25;
+NET "MemWriteL[2]" LOC = P24;
+NET "MemWriteL[1]" LOC = P21;
+NET "MemWriteL[0]" LOC = P20;
+NET "MemWriteR[6]" LOC = P64;
+NET "MemWriteR[5]" LOC = P63;
+NET "MemWriteR[4]" LOC = P62;
+NET "MemWriteR[3]" LOC = P60;
+NET "MemWriteR[2]" LOC = P59;
+NET "MemWriteR[1]" LOC = P58;
+NET "MemWriteR[0]" LOC = P55;
+NET "RegWriteL[6]" LOC = P10;
+NET "RegWriteL[5]" LOC = P8;
+NET "RegWriteL[4]" LOC = P7;
+NET "RegWriteL[3]" LOC = P6;
+NET "RegWriteL[2]" LOC = P5;
+NET "RegWriteL[1]" LOC = P4;
+NET "RegWriteL[0]" LOC = P3;
+NET "RegWriteR[6]" LOC = P19;
+NET "RegWriteR[5]" LOC = P18;
+NET "RegWriteR[4]" LOC = P16;
+NET "RegWriteR[3]" LOC = P15;
+NET "RegWriteR[2]" LOC = P13;
+NET "RegWriteR[1]" LOC = P12;
+NET "RegWriteR[0]" LOC = P11;
+NET "CLK" LOC = P57;
+NET "reset" LOC = P47;
+NET "Instruction[7]" LOC = P130;
+NET "Instruction[6]" LOC = P129;
+NET "Instruction[5]" LOC = P127;
+NET "Instruction[4]" LOC = P126;
+NET "Instruction[3]" LOC = P125;
+NET "Instruction[2]" LOC = P124;
+NET "Instruction[1]" LOC = P121;
+NET "Instruction[0]" LOC = P120;
+
+NET "MemAddress[7]" LOC = P105;
+NET "MemAddress[6]" LOC = P104;
+NET "MemAddress[5]" LOC = P103;
+NET "MemAddress[4]" LOC = P102;
+NET "MemAddress[3]" LOC = P101;
+NET "MemAddress[2]" LOC = P99;
+NET "MemAddress[1]" LOC = P98;
+NET "MemAddress[0]" LOC = P96;
+
